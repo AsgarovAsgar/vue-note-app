@@ -4,6 +4,7 @@ import HomeView from '@/views/HomeView.vue'
 import NoteView from '@/views/NoteView.vue'
 import QuizView from '@/views/QuizView.vue'
 import MovieView from '@/views/MovieView.vue'
+import TSView from '@/views/TSView.vue'
 
 const routes = [
   {
@@ -20,6 +21,11 @@ const routes = [
     path: '/movie',
     name: 'movie',
     component: MovieView
+  },
+  {
+    path: '/ts',
+    name: 'ts',
+    component: TSView
   },
   {
     path: '/quiz/:id',
